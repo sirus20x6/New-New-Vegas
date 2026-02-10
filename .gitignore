@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Build artifacts
+*.o
+*.exe
+*.dll
+*.zip
+
+# Steamless (download separately)
+tools/steamless/
+
+# Ghidra project files (too large for git)
+fnv-project/
+
+# Backups
+*.backup
+*.pre-patch-backup
+*.original
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MCP config (local)
+.mcp.json
